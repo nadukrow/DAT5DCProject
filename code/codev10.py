@@ -23,4 +23,5 @@ indicators_col = data[['Resp', 'VL-t0', 'CD4-t0']][:] # This is to solely focus 
 indicators_col[data.Resp==0].mean() # We can see the avg VL and CD4 count for respondents with 0.
 indicators_col[data.Resp==1].mean() #See the same with respondents who had a positive prognosis.
 
-
+neg = indicators_col[data.Resp==0]
+pos = indicators_col[data.Resp==1]
