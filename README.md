@@ -1,9 +1,10 @@
-# Project Proposal: Can salary allocation affect a NBA franchise's chances for success?
+# Project Proposal: Can we use CD4+ count and VL to predict whether someone's HIV will be severe?
 4/6/2015
 
-While the NBA has been a star driven league for decades, it is and always will be a team oriented sport. Players like Carmelo Anthony, Lebron James, Stephen Curry, and James Harden are seen as the best and therefore are paid like so. There have been teams constructed that look to pay 2-3 exceptional players and have less money for the rest of the roster as well as the bench. Then you have teams that look to allocate their funds in a way that doesn't leave them less money for role players. 
+According to the World Health Organization, HIV has caused 25 millions deaths worldwide since it was first recognized in 1981. In recent years, the infection has been managed with a collection of therapies. However, the virus will likely evolve around these drugs, making it crucially important that we get a better understanding of the virus itself. 
 
-The question I want to answer is how likely an NBA team will succeed in winning the NBA finals based on how they allocated their contracts to players.
+An important step in understanding the virus, is to get a handle on its genetic blueprint. This competition aims to do this by having contestants find markers in the HIV sequence which predict a change in the severity of the infection (as measured by viral load and CD4 counts).
 
-The data I plan to use to answer the question is located at http://www.basketball-reference.com/
-Here I'll be able to track the salaries of the winning teams and how they allocated their funds. I'll continue to search for other websites that may be helpful in looking and exploring the data.
+Models can be trained using the records of 1,000 patients. To predict an improvement in a patient's viral load, we'll use the data on the nucleotide sequences of their Reverse Transcriptase (RT) their Protease (PR) and their viral load and CD4 count at the beginning of therapy.
+
+The data provided is from a past Kaggle competition.
