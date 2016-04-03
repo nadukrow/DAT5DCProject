@@ -132,4 +132,3 @@ logreg.fit(X, y)
 y_pred = logreg.predict(X_test)
 
 print metrics.accuracy_score(y_test, y_pred)
-
